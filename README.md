@@ -1,2 +1,2 @@
-# JeuDeLaVie
-Jeu de la vie programmé en Javascript (page web)
+# Fiware-IoT-manager
+Fiware-IoT-manager for entity (Orion / QL)
