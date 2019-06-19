@@ -45,7 +45,7 @@ function animation() {
 function clearCanvas() {
     context.save();
     
-    context.fillStyle = 'rgba(r,g,b,a)';
+    context.fillStyle = 'rgba(200,200,200,1)';
     context.fillRect(0,0,canvas.width,canvas.height);
 
     context.restore();

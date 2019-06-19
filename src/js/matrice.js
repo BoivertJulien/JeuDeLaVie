@@ -1,6 +1,6 @@
 class Matrice {
     constructor() {
-        this.nbCell = 100;
+        this.nbCell = 50;
         this.playing = false;
         this.areas = [];
         for(var i=0; i<this.nbCell; i++) {

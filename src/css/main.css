@@ -1,10 +1,11 @@
 #myCanvas {
-  position:absolute; 
-  left:0px; 
+  position:absolute;
+  left:0px;
   bottom:0px;
   height: 95%;
   width: 100%;  
-  background-color: rgb(20, 20, 30);
+  background-color: rgb(50, 50, 80);
+
 }
 
 .myHeaders {
@@ -17,9 +18,69 @@
   vertical-align: middle;
   font-weight:bold;
   font-size: 20px;
-  background-color: rgb(50, 50, 80);
+  background-color: rgb(5, 5, 40);
   color:white;
-  text-transform: uppercase;
+  display: table;
+}
+
+.columns {
+  display:table-row;
+  width:100%;
+}
+
+.columnLeft {
+  display:table-cell;
+  width:40%;
+}
+
+.columnRight {
+  display:table-cell;
+  width:40%;
+}
+
+.columnCenter {
+  display:table-cell;
+  width:20%;
+}
+
+.buttonA {
+  width:20%;
+  height:100%;
+}
+
+.buttonB {
+  width:20%;
+  height:100%;
+}
+
+.buttonC {
+  width:20%;
+  height:100%;
+}
+
+.buttonD {
+  width:20%;
+  height:100%;
+}
+
+.button1 {
+  width:20%;
+  height:100%;
+}
+
+.button2 {
+  width:20%;
+  height:100%;
+}
+
+.button3 {
+  width:20%;
+  height:100%;
+}
+
+.button4 {
+  width:20%;
+  height:100%;
 }
 
 html,body{
@@ -29,5 +90,4 @@ html,body{
   border: 0;
   overflow: hidden; /*  Disable scrollbars */
   display: block;  /* No floating content on sides */
-
 }
